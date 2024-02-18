@@ -12,6 +12,10 @@
     align-items: center;
     justify-content: space-evenly;
 }
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
 .nav-logo{
     height: 50px;
     width: 110px;
@@ -29,9 +33,7 @@
 
     border: 1px solid white;
 }
-.add-first a{
-    text-decoration: none;
-}
+
 /**box2**/
 
 .add-first{
@@ -127,6 +129,10 @@
     font-weight: 700;
 }
 
+.panel a{
+    text-decoration: none;
+    color: white;
+}
 /**heor-section**/
 
 .hero-section{
@@ -206,6 +212,10 @@ footer{
     font-size: 0.85rem;
 
 }
+.foot-panel1 a{
+    text-decoration: none;
+    color:white ;
+}
 .foot-panel2{
     background-color:#222f3d ;
     color: white;
@@ -213,6 +223,12 @@ footer{
     display: flex;
     justify-content: space-evenly;
 
+}
+.foot-panel2 a{
+    text-decoration: none; 
+}
+.foot-panel2 a:hover{
+    text-decoration: underline;
 }
 ul{
     margin-top: 25px;
@@ -239,20 +255,36 @@ ul a{
     height: 50px;
     width: 100px;
 }
+.language{
+    background-color: #222f3d;
+    color: white;
+    
+}
 .foot-panel4{
     background-color: #0f1111;
     color: white;
     height: 80px;
     font-size: 0.7rem;
     text-align: center;
+   
     /* display: flec;
     justify-content: center;
     align-items: center; */
 
+}
+.foot-panel4 a{
+    text-decoration: none;
+    color: #dddd;
+    margin: 3px;
+    
+}
+.foot-panel4 a:hover{
+    text-decoration: underline;
 }
 .pages{
     padding-top:25px;
 }
 .copyright{
     padding-top: 5px;
+    color: #dddd;
 }
